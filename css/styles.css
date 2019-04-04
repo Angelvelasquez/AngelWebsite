@@ -1,6 +1,6 @@
 body {
     margin:0 auto;
-    background-color: #CDBD53;
+    background-color: #000;
     font-family: 'BenchNine', sans-serif;
     font-size: 23px;
 }
@@ -15,10 +15,10 @@ body {
 }
 
 .logo {
-    height:100px;
-    top:-10px;
+    height:200px;
+    top:-105px;
     position: absolute;
-    margin-left: 5px;
+    left:-70px;
     
 }
 
@@ -49,7 +49,7 @@ body {
 
 .heroimg{
     width:100%;
-    height:400px;
+    height:300px;
     position:relative;
     padding-top:50px;
     margin-left: 400px;
@@ -58,18 +58,19 @@ body {
 .hero-box{
     background-color: #CDBD53;
     border: 3px solid #000000;
-    height: 90px;/*---come bakc to this----*/
-    width: 200px;
+    height: 60px;/*---come bakc to this----*/
+    width: 100px;
     position:absolute;
     margin-left: 600px;
-    top: 150px;
-    text-align: center;
+    top: 160px;
 }
 
 h1 {
     color: black;
     position: relative;
-    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-bottom:50px;
+   
 }
 
     /*---End of Hero---*/
@@ -81,17 +82,18 @@ h1 {
     z-index:1;
 }    
 .content-text {
-    color:#000;
+    color:#fff;
 }
     
 .content-img, .content-text{
-    height :500px;
-    width: 48%;
+    height :600px;
+    width: 35%;
     float:left;
     text-align: justify;
-    margin-left: 15px;
+    margin-left: 20px;
     position:relative;
     margin-top:50px;
+    margin-left: 100px
 }
     
 .footer {
@@ -99,7 +101,7 @@ h1 {
     width:100%;
     color:#000;
     margin-top: -40px;
-        /*overflow: hidden;*/
+ /*overflow: hidden;*/
 }
     
 .footer-col{
@@ -151,4 +153,5 @@ input{
 
 p{
     text-align: justify;
+    color:#fff;
 }
